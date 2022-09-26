@@ -22,7 +22,8 @@
         /// <returns>navn og adress på en studerende</returns>
         public string NameAdresstext()
         {
-            return "Name: " + Name + " Adress: " + Adress;
+            string n = "Name: " + Name + " Adress: " + Adress;
+            return n;
         }
     }
 }
